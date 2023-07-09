@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta>
+    <meta charset="UTF-8">
+    <meta name="description" content="Prueba IMG">
+    <meta name="keywords" content="IMG">
+    <meta name="author" content="Evelyn">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pag.Image</title>
+    <link rel="icon" href="../Img/icon/Arcanine.ico">
+    <link rel="stylesheet" href="../Css/style_reset.css">
+    <link rel="stylesheet" href="../Css/style_general.css">
+    <link rel="stylesheet" href="../Css/style_menu_x.css">
+
+</head>
+<body>
+    <nav>
+        <div class="topnav">  <!--Diseño en la barra de navegación-->
+            <a href="../index.html">Home│</a>
+            <a href="../Pages/Etiquetas_Texto.html">Prácticas de Texto│</a>
+            <a class="active" href="../Pages/Img.html">Prácticas de Imágenes│</a>
+            <a href="../Pages/Listas.html">Prácticas de Listas│</a>
+            <a href="../Pages/Tablas.html">Prácticas de Tablas│</a>
+            <a href="../Pages/Mnu_Lateral.html">Menú Lateral│</a>
+            <a href="../Pages/Matematicas.html">Matematicas│</a>
+            <a href="../Pages/controles.html">Controles de Formulario│</a>
+            <a href="../Pages/CopyPaste.html">Plantilla│</a>
+        </div>
+    </nav>
+    <hr>
+        <iframe src="https://www.victorcuervo.com/" width="100%" height="300" style="border:1px solid black;"></iframe>
+    <hr>
+    <div class="dec1">
+        <p class="p1"><i>Imagen con texto alternativo - Directorio local</i></p>
+        <div class="imagen1">
+            <img src="../Img/img/Computor1.jpg" width="400" alt="ComputerEsc">
+            <img src="../Img/img/atencion.jpg" width="400" alt="ComputerAten">
+            <img src="../Img/img/Computor2.jpg" width="400" alt="ComputerEst">
+        <hr>
+        </div>
+        <p class="p2"><i>Imagen con texto alternativo - Directorio web</i></p>
+        <div class="imagen2">
+            <img src="https://cdn.pixabay.com/photo/2016/11/23/13/48/beach-1852945_1280.jpg" width="400" alt="Pajaro1">
+            <img src="https://cdn.pixabay.com/photo/2023/05/16/22/11/wood-duck-7998725_960_720.jpg" width="400" alt="Pajaro2">
+        </div>
+        <hr>
+        <p class="p1"><i>Mapeo de una imagen</i></p>
+        <img src="../Img/img/Cloud.png" alt="Mapeo" usemap="#NubeComputo"  heigh='500' width='500'>
+        <map name="NubeComputo">
+            <area shape="rect" coords="185,51,264,113" alt="Escritorio" title="Escritorio" href="../Pages/Mapeo/Escritorio.html" >
+            <area shape="rect" coords="338,10,416,116" alt="Servidor" title="Servidor" href="../Pages/Mapeo/Servidor.html" >
+            <area shape="rect" coords="438,150,490,210" alt="Computor" title="Computor" href="../Pages/Mapeo/Computor.html" >
+            <area shape="rect" coords="402,230,479,305" alt="Blackberry" title="Blackberry" href="../Pages/Mapeo/Blackberry.html" >
+            <area shape="rect" coords="251,400,350,330" alt="Laptop" title="Laptop" href="../Pages/Mapeo/Laptop.html" >
+            <area shape="rect" coords="19,280,130,338" alt="Celular" title="Celular" href="../Pages/Mapeo/Celular.html" >
+            <area shape="rect" coords="15,140,105,220" alt="CPU" title="CPU"  href="../Pages/Mapeo/CPU.html" >
+            <area shape="rect" coords="100,75,142,133" alt="Router" title="Router" href="../Pages/Mapeo/Router.html">
+        </map>
+        <p class="p2">
+            Imagen - Responsivo
+        </p>
+        <picture class="p3">
+            <!--Presentación de acuerdo a la resolución-->
+            <source media="(min-width: 650px)" srcset="../Img/img/Tierra_650.png">
+            <source media="(min-width: 450px)" srcset="../Img/img/Tierra_450.jpg">
+            <source media="(min-width: 300px)" srcset="../Img/img/Tierra_300.jpg">
+            <img src="../Img/img/Tierra_all.jpg" alt="Computor" style="width:initial">
+        </picture>
+    </div>
+    <hr>
+    <footer class="pie">
+        <!-- Pie de Página-->
+        <img src="../Img/img/developer.svg" alt="developer" width="42" height="42" style="vertical-align:middle;margin:10px 0px">
+        <p>Autora: Evelyn García</p>
+        <img src="../Img/img/email.svg" alt="email" width="30" height="30" style="vertical-align:middle;margin:10px 0px"><a id="pie1" href="mailto:egarciav3@unemi.edu.ec"> Mail Evelyn</a>
+        <br>
+        <img src="../Img/img/phone.svg" alt="tlfn" width="30" height="30" style="vertical-align:middle;margin:10px 0px"><a id="pie1" href="tel:+59388318480">Telefono Móvil Evelyn</a>
+    </footer>
+</body>
+</html>

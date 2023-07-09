@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta>
+    <meta charset="UTF-8">
+    <meta name="description" content="Prueba Listas">
+    <meta name="keywords" content="Listas">
+    <meta name="author" content="Evelyn">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pag.Listas</title>
+    <link rel="icon" href="../Img/icon/Aerodactyl.ico"> 
+    <link rel="stylesheet" href="../Css/style_reset.css">
+    <link rel="stylesheet" href="../Css/style_general.css">
+    <link rel="stylesheet" href="../Css/style_menu_x.css">
+</head>
+<body>
+    <nav>
+        <div class="topnav">  <!--Diseño en la barra de navegación-->
+            <a href="../index.html">Home│</a>
+            <a href="../Pages/Etiquetas_Texto.html">Prácticas de Texto│</a>
+            <a href="../Pages/Img.html">Prácticas de Imágenes│</a>
+            <a class="active" href="../Pages/Listas.html">Prácticas de Listas│</a>
+            <a href="../Pages/Tablas.html">Prácticas de Tablas│</a>
+            <a href="../Pages/Mnu_Lateral.html">Menú Lateral│</a>
+            <a href="../Pages/Matematicas.html">Matematicas│</a>
+            <a href="../Pages/controles.html">Controles de Formulario│</a>
+            <a href="../Pages/CopyPaste.html">Plantilla│</a>
+        </div>
+    </nav>
+    <hr>
+    <button id="showButton" onclick="showMessage()">Mostrar Mensaje</button>
+    <div class="dec1">
+        <hr>
+        <h1>LISTAS ORDENADAS, NO ORDENADAS, DE DEFINICIÓN Y ANIDADAS</h1>
+        <hr>
+        <h2>Listas Ordenadas</h2>
+        <p class="p1">Días de la semana</p>
+        <ol>
+            <li>Lunes</li>
+            <li>Martes</li>
+            <li>Miércoles</li>
+            <li>Jueves</li>
+            <li>Viernes</li>
+            <li>Sábado</li>
+            <li>Domingo</li>
+        </ol>
+        <p class="p1">Meses del año</p>
+        <ol type="A">
+            <li>Enero</li>
+            <li>Febrero</li>
+            <li>Marzo</li>
+            <li>Abril</li>
+            <li>Mayo</li>
+            <li>Junio</li>
+            <li>Julio</li>
+        </ol>
+        <p class="p1">Estaciones del año</p>
+        <ol type="i">
+            <li>Primavera</li>
+            <li>Verano</li>
+            <li>Otoño</li>
+            <li>Invierno</li>
+        </ol>
+        <hr>
+        <h2>Listas No Ordenadas</h2>
+        <p class="p2">Receta para el seco de Pollo</p>
+        <ul>
+            <li>Se limpia el pollo</li>
+            <li>Se hace el refrito</li>
+            <li>Se coloca en la olla a cocinar</li>
+            <li>Se pone los aliños al gusto</li>
+            <li>Luego se lo apaga</li>
+            <li>Se hace los maduros</li>
+        </ul>
+        <p class="p2">Lista de utiles escolares</p>
+        <ul style="list-style-type: armenian">
+            <li>Cuaderno de cuadro de 100 hojas</li>
+            <li>Lapices de colores</li>
+            <li>Borrador</li>
+            <li>Regla</li>
+        </ul>
+        <p class="p2">Receta de pan frances</p>
+        <ul style="list-style-image: url(../Img/icon/Dewgong.ico);">
+            <li>Sal</li>
+            <li>Mantequilla</li>
+            <li>Harina</li>
+            <li>Huevo</li>
+        </ul>
+        <hr>
+        <h2>Listas de Definicion</h2>
+        <p class="p1">Preguntas frecuentes</p>
+        <dl>
+            <dt><b>¿Vende celulares?</b></dt>
+            <dd>Si vendo</dd>
+            <dt><b>¿De que marca?</b></dt>
+            <dd>Samsung, Redmi, Xiomi</dd>
+            <dt><b>¿Vende celulares de segunda?</b></dt>
+            <dd>Si tambien vendemos celulares de segunda</dd>
+            <dt><b>¿Tiene alto rendimiento y almacenamiento?</b></dt>
+            <dd>Si lo poseen</dd>
+            <dt><b>¿Los celulares son actualizados?</b></dt>
+            <dd>Si tienen la ultima actualizacion</dd>
+            <dt><b>¿Tiene celulares de bajo precio?</b></dt>
+            <dd>Si pero no muchos</dd>
+        </dl>
+        <hr>
+        <h2>Listas Anidadas</h2>
+        <p class="p2">Las estaciones del año</p>
+        <ol>
+            <li>Primavera</li>
+            <ul>
+                <li>Abril</li>
+                <li>Mayo</li>
+                <li>Junio</li>
+            </ul>
+            <li>Verano</li>
+            <ul>
+                <li>Julio</li>
+                <li>Agosto</li>
+                <li>Septiembre</li>
+            </ul>
+            <li>Otoño</li>
+            <ul>
+                <li>Octubre</li>
+                <li>Noviembre</li>
+                <li>Diciembre</li>
+            </ul>
+            <li>Invierno</li>
+            <ul>
+                <li>Enero</li>
+                <li>Febrero</li>
+                <li>Marzo</li>
+            </ul>
+        </ol>
+    </div>
+    
+    <hr>
+    <footer class="pie">
+        <!-- Pie de Página-->
+        <img src="../Img/img/developer.svg" alt="developer" width="42" height="42" style="vertical-align:middle;margin:10px 0px">
+        <p>Autora: Evelyn García</p>
+        <img src="../Img/img/email.svg" alt="email" width="30" height="30" style="vertical-align:middle;margin:10px 0px"><a id="pie1" href="mailto:egarciav3@unemi.edu.ec"> Mail Evelyn</a>
+        <br>
+        <img src="../Img/img/phone.svg" alt="tlfn" width="30" height="30" style="vertical-align:middle;margin:10px 0px"><a id="pie1" href="tel:+59388318480">Telefono Móvil Evelyn</a>
+    </footer>
+</body>
+</html>

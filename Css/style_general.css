@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(215, 243, 250);
+  }
+  .Bienvenida {
+    height: 100px;
+    width: 250px;
+  }
+  nav {
+        background-color: rgb(7, 33, 147);
+        font-size: 16px;
+        font-weight:bolder;
+        padding: 10px;
+    }
+    nav a:visited {
+        color: rgb(224, 238, 244);
+      }
+    nav a:hover {
+        color: rgb(82, 191, 231);
+      }
+    nav a:active {
+        color: rgb(212, 100, 201);
+      }
+  .Contenido {
+    background-image: url("../Img/img/degradado.jpg");
+    background-color: #cccccc;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .Presentacion {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .p1 {
+    color: rgb(188, 228, 252);
+    text-indent: 20px;
+    font-size: 16px;
+  }
+  .p2 {
+    color: rgb(183, 246, 177);
+    text-indent: 20px;
+    font-size: 16px;
+  }
+  .p3 {
+    color: rgb(102, 93, 225);
+    text-indent: 20px;
+    font-size: 16px;
+  }
+  h1 {
+    color:rgb(180, 218, 235);
+    text-align: center;
+    text-shadow: 2px 2px 8px rgb(211, 231, 240);
+  }
+  h2 {
+    color:rgb(72, 176, 236);
+    text-align: center;
+  }
+  h3 {
+    color:rgb(91, 105, 232);
+    text-align: center;
+  }
+  h4 {
+    color:rgb(177, 74, 217);
+    text-align: center;
+  }
+  h5 {
+    color:rgb(225, 25, 209);
+    text-align: center;
+    text-shadow: 2px 2px 8px rgb(235, 176, 230);
+  }
+  h6 {
+    color:rgb(238, 55, 158);
+    text-align: center;
+  }
+  .dec1{
+    background-image: url("../Img/img/degradado.jpg");
+  }
+  dt{
+    color: rgb(148, 235, 207);
+  }
+  li{
+    color:rgb(224, 255, 220);
+  }
+  ul{
+    color:rgb(223, 188, 236);
+  }
+  caption {
+    color:rgb(125, 228, 194);
+  }
+  table, th, td {
+    border: 2px solid rgb(36, 36, 172);
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+  }
+  thead {
+    background-color:rgb(22, 147, 193)
+  }
+  tbody {
+    background-color:rgb(125, 194, 219)
+  }
+  .comb1{
+    background-color: rgb(116, 226, 226);
+  }
+  .comb2{
+    background-color: rgb(142, 215, 249);
+    text-align: center;
+  }
+  .comb3{
+    background-color: rgb(127, 233, 179);
+    text-align: center;
+  }
+.pie{
+    color:rgb(19, 107, 158);
+    text-align: center;
+    font-size: 19px;
+  }
+  #pie1{
+    font-size: 18px;
+  }
+
+
+
