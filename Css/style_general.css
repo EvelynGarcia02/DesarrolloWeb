@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(215, 243, 250);
+  background-color: #0d2033;
 }
 .Bienvenida {
   height: 100px;
@@ -39,12 +39,12 @@ nav {
   transform: translate(-50%, -50%);
 }
 .p1 {
-  color: rgb(188, 228, 252);
+  color: red;
   text-indent: 20px;
   font-size: 16px;
 }
 .p2 {
-  color: rgb(183, 246, 177);
+  color: red;
   text-indent: 20px;
   font-size: 16px;
 }
@@ -86,10 +86,10 @@ dt{
   color: rgb(148, 235, 207);
 }
 li{
-  color:rgb(224, 255, 220);
+  color:blue;
 }
 ul{
-  color:rgb(223, 188, 236);
+  color:green;
 }
 caption {
   color:rgb(125, 228, 194);
