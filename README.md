@@ -1,6 +1,7 @@
 # DesarrolloWeb
 Presentación y Diseño
 Guardar cambios---- COMANDOS
+Antes hacer un cambio poner git init
 git init
 git status
 git add .
